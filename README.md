@@ -10,5 +10,7 @@ Toutes les versions seront supprimés pour être entièrement recréées sur de 
 Comme vous l'avez remarqués, sachant que l'outil à été recrée toutes les fonctionnalités seront retravaillé, pour le moment les seuls deux fonctionns présentes sont des outils liés à la protection de votre ordinateur !
 ## Mises en gardes
 Gardez à l'esprit que l'option d'analyse antivirus ne remplace pas un véritable antivirus comme le précise le programme. De plus, nous ne sommes pas responsable pour d'éventuel dégâts causés sur votre ordinateur suite à une mauvaise utilisation.
+## Développement
+L'outil est développé en batch et est convertie en application Windows via Batch to Exe Converter, l'assistant d'installation à été créer avec Inno Setup !
 ## Soutiens
 Vous pouvez également apporter votre aide en postant votre version sur le serveur Discord officiel (le lien est disponible dans la description du projet) et en ajoutant une étoile à ce projet !
