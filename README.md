@@ -6,7 +6,6 @@ Toutes les versions seront supprimés pour être entièrement recréées sur de 
 ## Fonctionnalités
 - Activation ou désactivation de Windows Defender
 - Analyse antivirus
-- SFC ScanNow
 ## Ajout de fonctionnalités
 Comme vous l'avez remarqués, sachant que l'outil à été recrée toutes les fonctionnalités seront retravaillé, pour le moment les seuls deux fonctions présentes sont des outils liés à la protection de votre ordinateur !
 ## Mises en gardes
