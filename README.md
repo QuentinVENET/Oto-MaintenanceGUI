@@ -13,4 +13,7 @@ Gardez à l'esprit que l'option d'analyse antivirus ne remplace pas un véritabl
 ## Développement
 L'outil est développé en batch et est convertie en application Windows via Batch to Exe Converter, l'assistant d'installation à été créer avec Inno Setup !
 ## Soutiens
-Vous pouvez également apporter votre aide en postant votre version sur le serveur Discord officiel (le lien est disponible dans la description du projet) et en ajoutant une étoile à ce projet !
+Vous pouvez également apporter votre aide en postant votre version sur le serveur [Discord officiel](https://discord.gg/h5y2bZwH2B) et en ajoutant une étoile à ce projet !
+## Remerciements
+Je remercie Naylor, Michael Afton pour avoir soutenu la version Anglaise du projet. Je remercie encore Michael pour avoir fait une version d'Oto-Maintenance pour [Linux](https://github.com/Xx-R3dL3ad3r-xX/LinOto-Maintenance) !
+Je remercie toutes les personnes qui croient au projet et qui le soutiennes !
