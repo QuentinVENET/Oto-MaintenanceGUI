@@ -15,6 +15,7 @@ nav {
 ul {
     margin: 0 auto;
     list-style-type: none;
+    width: 80%;
 }
 
 li {
@@ -30,6 +31,8 @@ li {
 
 main {
     text-align: center;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .button {
@@ -93,3 +96,11 @@ img {
     width: 20%;
 }
 
+.denied {
+    cursor: not-allowed;
+    color: red;
+}
+
+.authorized {
+    color: green;
+}
