@@ -1,5 +1,6 @@
 # Oto-Maintenance
 Un outil de maintenance avancé pour Windows !
+![Downloads](https://img.shields.io/github/downloads/enioaiello/Oto-Maintenance/total.svg) ![Stars](https://img.shields.io/github/stars/enioaiello/Oto-Maintenance.svg)
 ## Informations
 Cet outil à été recréé en Français afin de simplifier le développement, la plupart des versions ont été effacés et toutes les versions seront recréés. Le serveur Discord à été entièrement refait.
 Toutes les versions seront supprimés pour être entièrement recréées sur de bonnes bases !
