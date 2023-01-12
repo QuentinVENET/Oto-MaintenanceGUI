@@ -2,7 +2,7 @@
 Un outil de maintenance avancé pour Windows !
 ## Informations
 Cet outil à été recréé en Français afin de simplifier le développement, la plupart des versions ont été effacés et toutes les versions seront recréés. Le serveur Discord à été entièrement refait.
-Toutes les versions seront supprimés pour être entièrement recréées sur de bonnes bases !
+Toutes les versions seront supprimés pour être entièrement recréées sur de bonnes bases !\
 ![Downloads](https://img.shields.io/github/downloads/enioaeillo/Oto-Maintenance/total.svg)
 ## Fonctionnalités
 - Activation ou désactivation de Windows Defender
