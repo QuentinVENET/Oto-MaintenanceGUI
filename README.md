@@ -1,4 +1,4 @@
-![banner](assets/img/banner.png)
+![banner](banner.png)
 # Oto-Maintenance
 Un outil de maintenance avancé pour Windows !
 ## Informations
