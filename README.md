@@ -14,7 +14,7 @@ Gardez à l'esprit que l'option d'analyse antivirus ne remplace pas un véritabl
 ## Développement
 L'outil est développé en batch et est converti en application Windows via Batch to Exe Converter, l'assistant d'installation a été créer avec Inno Setup !\
 Les versions bêta sont en batch, non convertie et nécessite des élévations.\
-Si vous souhaitez bidouiller le code, faire votre version ou comprendre comment marche **Oto-Maintenance**, vous pouvez retrouver l'historique des versions (en batch) [ici](https://github.com/enioaiello/Oto-Maintenance/tree/main/versions).
+Si vous souhaitez bidouiller le code, faire votre version ou comprendre comment marche **Oto-Maintenance**, vous pouvez retrouver l'historique des versions (en batch) sur cette page.
 ## Soutiens
 Vous pouvez également apporter votre aide en postant votre version sur le serveur [Discord officiel](https://discord.gg/h5y2bZwH2B) et en ajoutant une étoile à ce projet !
 ## Remerciements
