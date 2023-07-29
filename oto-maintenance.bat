@@ -1,23 +1,23 @@
 @echo off
+chcp 65001 > nul
+title Oto-Maintenance
 
 >nul 2>&1 "%SYSTEMROOT%\system32\icacls.exe" "%SYSTEMROOT%\system32\config\system"
 
 if %errorlevel% neq 0 (
-    echo Le script nécessite des privilèges d'administrateur.
-    echo Veuillez redémarrer en tant qu'administrateur.
+    echo Erreur !
+    echo Oto-Maintenance nécessite des permissions plus élevées afin d'effectuer certaines opérations.
+    echo Relancez Oto-Maintenance en tant qu'administrateur.
+    echo.
+    echo Si vous ne pouvez pas, contactez votre administrateur système.
     pause > nul
     exit /b
 )
 
-:chargement
-echo Chargement en cours...
-chcp 65001
-title Oto-Maintenance
-
 :menu
 cls
 echo.
-echo Menu de Fonctionnalités :
+echo Menu de fonctionnalités :
 echo.
 echo 1. Défragmentation des lecteurs
 echo 2. Activer/désactiver Windows Defender
@@ -25,8 +25,13 @@ echo 3. Lancer une analyse Windows Defender
 echo 4. Lancer un programme
 echo 5. Relancer l'explorateur de fichiers
 echo 6. Lancer msconfig
+echo 7. Vider les fichiers temporaires
+echo 8. Voir les informations système
 echo.
-set /p choix="Entrez le numéro de l'option souhaitée (ou 'q' pour quitter) : "
+echo R. Repository GitHub
+echo Q. Quitter
+echo.
+set /p choix="> "
 
 if "%choix%"=="1" goto defragmentation
 if "%choix%"=="2" goto defender
@@ -34,6 +39,9 @@ if "%choix%"=="3" goto analyse_defender
 if "%choix%"=="4" goto lancer_programme
 if "%choix%"=="5" goto relancer_explorateur
 if "%choix%"=="6" goto lancer_msconfig
+if "%choix%"=="7" goto clean
+if "%choix%"=="8" goto infos
+if /i "%choix%"=="r" goto repo
 if /i "%choix%"=="q" goto fin
 
 echo Option invalide.
@@ -105,6 +113,31 @@ start msconfig.exe
 echo.
 echo msconfig lancé.
 pause >nul
+goto menu
+
+:clean
+echo Suppression des fichiers temporaires dans 15 secondes.
+echo Pressez une touche pour continuer.
+timeout 15 > nul 
+del /s /q %temp%\*
+del /s /q %windir%\temp\*
+cls
+echo Fichiers nettoyés !
+echo Pressez une touche pour revenir à l'accueil.
+pause > nul
+goto menu
+
+:infos 
+echo Informations système
+echo.
+systeminfo
+echo.
+echo Pressez une touche pour revenir à l'accueil 
+pause > nul 
+goto menu
+
+:repo 
+start https://github.com/enioaiello/Oto-Maintenance 
 goto menu
 
 :fin
